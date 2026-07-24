@@ -1,0 +1,9 @@
+# Kaggle datasets - do not republish
+KDDTrain+.txt
+KDDTest+.txt
+
+# Large dataset files
+NF-UQ-NIDS.parquet
+
+# Analysis notebooks (local only)
+comparison file old vs new dataset__for analysis.ipynb
