@@ -47,8 +47,6 @@ The system preprocesses the NSL-KDD dataset, performs feature engineering and cl
 AI-Driven-Cyber-Threat-Detection-System/
 │
 ├── .devcontainer/                # Development container configuration
-├── KDDTrain+.txt                 # NSL-KDD training dataset
-├── KDDTest+.txt                  # NSL-KDD testing dataset
 ├── app.py                        # Streamlit web application
 ├── final_file_deployable.ipynb   # Data preprocessing, feature engineering, model training & evaluation
 ├── model.pkl                     # Trained Random Forest model
@@ -127,7 +125,27 @@ Real-Time Threat Prediction
 
 ---
 
+## 📊 Dataset
 
+This project utilizes the **NSL-KDD** dataset, a widely recognized benchmark for evaluating **Network Intrusion Detection Systems (NIDS)**. The dataset is an improved version of the KDD'99 dataset, designed to eliminate redundant records and provide a more balanced and reliable benchmark for machine learning-based intrusion detection research.
+
+The dataset consists of **41 network traffic features** and a target label indicating whether a network connection is **Normal** or represents an **Attack**. It includes separate training and testing datasets, enabling consistent evaluation of intrusion detection models.
+
+**Dataset Source:**  
+https://www.kaggle.com/datasets/hassan06/nslkdd
+
+**Files Used:**
+- `KDDTrain+.txt` – Training dataset
+- `KDDTest+.txt` – Testing dataset
+
+**Applications:**
+- Network Intrusion Detection
+- Cybersecurity Research
+- Binary & Multi-class Classification
+- Machine Learning Model Evaluation
+
+**Acknowledgment:**  
+This project uses the publicly available **NSL-KDD** benchmark dataset for educational and research purposes. Credit goes to the original NSL-KDD dataset authors and the Kaggle dataset publisher.
 
 ---
 
