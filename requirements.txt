@@ -4,4 +4,5 @@ numpy
 joblib
 matplotlib
 seaborn
-scikit-learn
+scikit-learn==1.8.0
+category_encoders
