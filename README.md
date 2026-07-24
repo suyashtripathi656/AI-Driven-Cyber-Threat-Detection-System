@@ -80,10 +80,16 @@ AI-Driven-Cyber-Threat-Detection-System/
 - Select **Random Forest** as the final model.
 
 ### 5. Deployment
-- Deploy the trained model using **Streamlit**.
-- Users can upload network traffic data through the web interface.
-- The application predicts whether the traffic is **Normal** or **Malicious**.
-- Prediction results are displayed through an interactive dashboard.
+
+The application is deployed on **Streamlit Community Cloud** and provides an interactive web interface for real-time network intrusion detection.
+
+**🌐 Live Demo:**  
+https://ai-driven-cyber-threat-detection-system-7884.streamlit.app/
+
+**Features:**
+- Upload network traffic data for analysis.
+- Predict whether the traffic is **Normal** or **Malicious**.
+- Display prediction results through an interactive dashboard.
 
 ---
 
