@@ -154,7 +154,7 @@ This project uses the publicly available **NSL-KDD** benchmark dataset for educa
 **Suyash Tripathi**
 
 - GitHub: https://github.com/suyashtripathi656
-- LinkedIn: linkedin.com/in/suyash-tripathi-53772827a/
+- LinkedIn: https://www.linkedin.com/in/suyash-tripathi-53772827a/
 
 ---
 
