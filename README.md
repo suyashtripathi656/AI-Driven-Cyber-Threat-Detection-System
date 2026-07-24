@@ -86,7 +86,6 @@ The application is deployed on **Streamlit Community Cloud** and provides an int
 **🌐 Live Demo:**  
 https://ai-driven-cyber-threat-detection-system-7884.streamlit.app/
 
-**Features:**
 - Upload network traffic data for analysis.
 - Predict whether the traffic is **Normal** or **Malicious**.
 - Display prediction results through an interactive dashboard.
