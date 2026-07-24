@@ -43,14 +43,18 @@ The system preprocesses the NSL-KDD dataset, performs feature engineering and cl
 
 ## 📁 Project Structure
 
-```
+```text
 AI-Driven-Cyber-Threat-Detection-System/
 │
-├── KDDTrain+.txt                 # Training dataset
-├── KDDTest+.txt                  # Testing dataset
-├── final_file_deployable.ipynb   # Data preprocessing, model training & evaluation
+├── .devcontainer/                # Development container configuration
+├── KDDTrain+.txt                 # NSL-KDD training dataset
+├── KDDTest+.txt                  # NSL-KDD testing dataset
 ├── app.py                        # Streamlit web application
-├── README.md                     # Project documentation
+├── final_file_deployable.ipynb   # Data preprocessing, feature engineering, model training & evaluation
+├── model.pkl                     # Trained Random Forest model
+├── preprocessor.pkl              # Saved preprocessing pipeline
+├── requirements.txt              # Project dependencies
+└── README.md                     # Project documentation
 ```
 
 ---
